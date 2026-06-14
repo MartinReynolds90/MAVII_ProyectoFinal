@@ -20,15 +20,30 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\Src\Avatar.h" />
-    <ClInclude Include="..\Src\Box2DHelper.h" />
     <ClInclude Include="..\Src\Game.h" />
     <ClInclude Include="..\Src\SFMLRenderer.h" />
+    <ClInclude Include="Box2Dhelper.h" />
+    <ClInclude Include="NivelDos.h" />
+    <ClInclude Include="Niveles.h" />
+    <ClInclude Include="NivelTres.h" />
+    <ClInclude Include="NivelUno.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="Teclado.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\Src\Avatar.cpp" />
     <ClCompile Include="..\Src\Box2dEmptyApp.cpp" />
     <ClCompile Include="..\Src\Game.cpp" />
     <ClCompile Include="..\Src\SFMLRenderer.cpp" />
+    <ClCompile Include="Box2Dhelper.cpp" />
+    <ClCompile Include="NivelDos.cpp" />
+    <ClCompile Include="Niveles.cpp" />
+    <ClCompile Include="NivelTres.cpp" />
+    <ClCompile Include="NivelUno.cpp" />
+    <ClCompile Include="Teclado.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Avatar.rc" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{96C674D7-9E95-4F51-966C-1A0545981942}</ProjectGuid>
